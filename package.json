@@ -4,14 +4,14 @@
   "type": "module",
   "private": true,
   "description": "One SDK. Every AI. Enterprise-grade, production-ready Universal AI SDK for TypeScript and JavaScript.",
-  "author": "Shaz Vision <contact@shazvision.com> (https://shazvision.com)",
+  "author": "Berkay Şahin <berkay@shazvision.com> (https://shazvision.com)",
   "homepage": "https://shazvision.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shazvision/vision-universal-ai.git"
+    "url": "https://github.com/berkaysahin-dev/vision-universal-ai.git"
   },
   "bugs": {
-    "url": "https://github.com/shazvision/vision-universal-ai/issues"
+    "url": "https://github.com/berkaysahin-dev/vision-universal-ai/issues"
   },
   "license": "MIT",
   "engines": {
