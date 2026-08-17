@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "references": [
+    { "path": "../core" },
+    { "path": "../gemini" },
+    { "path": "../openai" },
+    { "path": "../anthropic" },
+    { "path": "../groq" },
+    { "path": "../deepseek" },
+    { "path": "../openrouter" },
+    { "path": "../ollama" },
+    { "path": "../mistral" }
+  ],
+  "include": ["src/**/*"]
+}

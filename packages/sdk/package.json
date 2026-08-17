@@ -1,0 +1,69 @@
+{
+  "name": "vision-universal-ai",
+  "version": "1.0.0",
+  "description": "One SDK. Every AI. Enterprise-grade, production-ready Universal AI SDK for TypeScript and JavaScript.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@vision-ai/core": "*",
+    "@vision-ai/gemini": "*",
+    "@vision-ai/openai": "*",
+    "@vision-ai/anthropic": "*",
+    "@vision-ai/groq": "*",
+    "@vision-ai/deepseek": "*",
+    "@vision-ai/openrouter": "*",
+    "@vision-ai/ollama": "*",
+    "@vision-ai/mistral": "*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist tsconfig.tsbuildinfo"
+  },
+  "keywords": [
+    "ai",
+    "universal-ai",
+    "sdk",
+    "openai",
+    "gemini",
+    "anthropic",
+    "claude",
+    "groq",
+    "deepseek",
+    "openrouter",
+    "ollama",
+    "mistral",
+    "llm",
+    "streaming",
+    "tool-calling",
+    "structured-output",
+    "shaz-vision"
+  ],
+  "author": "Shaz Vision <contact@shazvision.com> (https://shazvision.com)",
+  "homepage": "https://shazvision.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shazvision/vision-universal-ai.git",
+    "directory": "packages/sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/shazvision/vision-universal-ai/issues"
+  },
+  "license": "MIT"
+}

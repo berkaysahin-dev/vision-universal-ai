@@ -1,0 +1,25 @@
+{
+  "name": "@vision-ai/anthropic",
+  "version": "1.0.0",
+  "description": "Anthropic Claude adapter for Vision Universal AI",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@vision-ai/core": "*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist tsconfig.tsbuildinfo"
+  },
+  "author": "Vision Universal AI Contributors",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@vision-ai/cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI for Vision Universal AI",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "vision-ai": "./bin/vision-ai.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@vision-ai/core": "*",
+    "vision-universal-ai": "*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist tsconfig.tsbuildinfo"
+  },
+  "author": "Vision Universal AI Contributors",
+  "license": "MIT"
+}

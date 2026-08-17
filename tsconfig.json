@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/openai" },
+    { "path": "./packages/gemini" },
+    { "path": "./packages/anthropic" },
+    { "path": "./packages/groq" },
+    { "path": "./packages/deepseek" },
+    { "path": "./packages/openrouter" },
+    { "path": "./packages/ollama" },
+    { "path": "./packages/mistral" },
+    { "path": "./packages/sdk" },
+    { "path": "./packages/cli" }
+  ]
+}

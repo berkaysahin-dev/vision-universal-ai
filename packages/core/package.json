@@ -1,0 +1,48 @@
+{
+  "name": "@vision-ai/core",
+  "version": "1.0.0",
+  "description": "Core abstractions, pipelines, retry, tools, streaming, router, and error normalization for Vision Universal AI",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf dist tsconfig.tsbuildinfo"
+  },
+  "keywords": [
+    "vision-universal-ai",
+    "core",
+    "ai",
+    "llm",
+    "streaming",
+    "tool-calling",
+    "structured-output"
+  ],
+  "author": "Shaz Vision <contact@shazvision.com> (https://shazvision.com)",
+  "homepage": "https://shazvision.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shazvision/vision-universal-ai.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/shazvision/vision-universal-ai/issues"
+  },
+  "license": "MIT"
+}

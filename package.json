@@ -1,0 +1,56 @@
+{
+  "name": "vision-universal-ai-monorepo",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "One SDK. Every AI. Enterprise-grade, production-ready Universal AI SDK for TypeScript and JavaScript.",
+  "author": "Shaz Vision <contact@shazvision.com> (https://shazvision.com)",
+  "homepage": "https://shazvision.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shazvision/vision-universal-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shazvision/vision-universal-ai/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/core packages/openai packages/gemini packages/anthropic packages/groq packages/deepseek packages/openrouter packages/ollama packages/mistral packages/sdk packages/cli",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc -b --noEmit packages/core packages/openai packages/gemini packages/anthropic packages/groq packages/deepseek packages/openrouter packages/ollama packages/mistral packages/sdk packages/cli",
+    "clean": "rimraf packages/*/dist packages/*/tsconfig.tsbuildinfo dist coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  },
+  "keywords": [
+    "ai",
+    "universal-ai",
+    "sdk",
+    "openai",
+    "gemini",
+    "anthropic",
+    "claude",
+    "groq",
+    "deepseek",
+    "openrouter",
+    "ollama",
+    "mistral",
+    "llm",
+    "streaming",
+    "tool-calling",
+    "structured-output",
+    "shaz-vision"
+  ]
+}
